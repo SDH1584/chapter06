@@ -1,4 +1,4 @@
-package echo;
+package echo.ex01;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -19,7 +19,7 @@ public class Client {
 		System.out.println("클라이언트 시작");
 		System.out.println("===========");
 		System.out.println("서버에 연결을 요청합니다");
-		socket.connect(new InetSocketAddress("192.168.0.206", 10001));
+		socket.connect(new InetSocketAddress("192.168.55.43", 10001));
 		System.out.println("서버에 연결되었습니다");
 		
 		//메세지 보내기 스트림

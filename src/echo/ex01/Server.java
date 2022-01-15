@@ -1,4 +1,4 @@
-package echo;
+package echo.ex01;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -15,7 +15,7 @@ public class Server {
 
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = new ServerSocket();
-		serverSocket.bind(new InetSocketAddress("192.168.0.206", 10001));
+		serverSocket.bind(new InetSocketAddress("192.168.55.43", 10001));
 		
 		System.out.println("<서버시작>");
 		System.out.println("=========");
